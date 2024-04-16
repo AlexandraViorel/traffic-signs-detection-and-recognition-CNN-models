@@ -1,0 +1,1117 @@
+2024-04-08 22:50:36,707 INFO    StreamThr :25404 [internal.py:wandb_internal():86] W&B internal server running at pid: 25404, started at: 2024-04-08 22:50:36.706860
+2024-04-08 22:50:36,710 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status
+2024-04-08 22:50:36,731 INFO    WriterThread:25404 [datastore.py:open_for_write():87] open: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\run-rbz9vzc6.wandb
+2024-04-08 22:50:36,733 DEBUG   SenderThread:25404 [sender.py:send():379] send: header
+2024-04-08 22:50:36,798 DEBUG   SenderThread:25404 [sender.py:send():379] send: run
+2024-04-08 22:50:37,364 INFO    SenderThread:25404 [dir_watcher.py:__init__():211] watching files in: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files
+2024-04-08 22:50:37,365 INFO    SenderThread:25404 [sender.py:_start_run_threads():1124] run started: rbz9vzc6 with start time 1712605836.706859
+2024-04-08 22:50:37,395 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: check_version
+2024-04-08 22:50:37,396 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: check_version
+2024-04-08 22:50:37,622 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: run_start
+2024-04-08 22:50:37,636 DEBUG   HandlerThread:25404 [system_info.py:__init__():26] System info init
+2024-04-08 22:50:37,636 DEBUG   HandlerThread:25404 [system_info.py:__init__():41] System info init done
+2024-04-08 22:50:37,636 INFO    HandlerThread:25404 [system_monitor.py:start():194] Starting system monitor
+2024-04-08 22:50:37,637 INFO    SystemMonitor:25404 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-08 22:50:37,637 INFO    HandlerThread:25404 [system_monitor.py:probe():214] Collecting system info
+2024-04-08 22:50:37,641 INFO    SystemMonitor:25404 [interfaces.py:start():190] Started cpu monitoring
+2024-04-08 22:50:37,646 DEBUG   HandlerThread:25404 [system_info.py:probe():150] Probing system
+2024-04-08 22:50:37,647 INFO    SystemMonitor:25404 [interfaces.py:start():190] Started disk monitoring
+2024-04-08 22:50:37,656 INFO    SystemMonitor:25404 [interfaces.py:start():190] Started memory monitoring
+2024-04-08 22:50:37,668 INFO    SystemMonitor:25404 [interfaces.py:start():190] Started network monitoring
+2024-04-08 22:50:37,671 DEBUG   HandlerThread:25404 [system_info.py:_probe_git():135] Probing git
+2024-04-08 22:50:37,837 DEBUG   HandlerThread:25404 [system_info.py:_probe_git():143] Probing git done
+2024-04-08 22:50:37,837 DEBUG   HandlerThread:25404 [system_info.py:probe():198] Probing system done
+2024-04-08 22:50:37,838 DEBUG   HandlerThread:25404 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.10', 'heartbeatAt': '2024-04-08T19:50:37.647121', 'startedAt': '2024-04-08T19:50:36.680925', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN1\\train.py', 'codePathLocal': 'train.py', 'codePath': 'TSR-CNN1\\train.py', 'git': {'remote': 'https://github.com/AlexandraViorel/BACHELORS-THESIS.git', 'commit': '835d3c160dc49a0f53a5466b2314b6c45f0e185f'}, 'email': 'alexsig22@yahoo.com', 'root': 'D:/Faculty materials/BACHELORS-THESIS', 'host': 'LAPTOP-JI02NQ9M', 'username': 'alexs', 'executable': 'D:\\Faculty materials\\BACHELORS-THESIS\\.venv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2112.0, 'min': 0.0, 'max': 2112.0}, 'cpu_freq_per_core': [{'current': 2112.0, 'min': 0.0, 'max': 2112.0}], 'disk': {'/': {'total': 337.32519149780273, 'used': 257.99225997924805}}, 'memory': {'total': 15.837203979492188}}
+2024-04-08 22:50:37,838 INFO    HandlerThread:25404 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-08 22:50:37,838 INFO    HandlerThread:25404 [system_monitor.py:probe():227] Publishing system info
+2024-04-08 22:50:37,839 INFO    HandlerThread:25404 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-08 22:50:37,861 DEBUG   SenderThread:25404 [sender.py:send():379] send: files
+2024-04-08 22:50:37,861 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-08 22:50:38,052 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-08 22:50:38,052 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: python_packages
+2024-04-08 22:50:38,053 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:50:38,054 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:50:38,056 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:50:38,376 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-metadata.json
+2024-04-08 22:50:38,376 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\requirements.txt
+2024-04-08 22:50:38,447 DEBUG   SenderThread:25404 [sender.py:send():379] send: telemetry
+2024-04-08 22:50:38,447 DEBUG   SenderThread:25404 [sender.py:send():379] send: telemetry
+2024-04-08 22:50:38,448 DEBUG   SenderThread:25404 [sender.py:send():379] send: config
+2024-04-08 22:50:38,448 DEBUG   SenderThread:25404 [sender.py:send():379] send: config
+2024-04-08 22:50:38,735 INFO    wandb-upload_0:25404 [upload_job.py:push():131] Uploaded file C:\Users\alexs\AppData\Local\Temp\tmpaz9xqxtqwandb\m69wre1b-wandb-metadata.json
+2024-04-08 22:50:39,390 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:41,406 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:42,494 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:50:45,442 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:47,455 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:47,636 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:50:49,495 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:51,517 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:52,538 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:52,782 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:50:53,071 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:50:53,072 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:50:53,077 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:50:54,550 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:56,598 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:50:57,866 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:50:58,612 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:00,646 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:02,669 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:02,993 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:04,684 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:06,766 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:08,049 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:08,084 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:51:08,084 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:51:08,245 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:51:08,780 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\config.yaml
+2024-04-08 22:51:08,781 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:10,802 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:12,825 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:13,316 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:14,845 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:16,858 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:18,479 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:18,899 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:20,923 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:22,940 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:23,090 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:51:23,092 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:51:23,092 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:51:23,642 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:24,983 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:27,018 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:28,718 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:29,054 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:31,107 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:33,125 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:33,876 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:35,158 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:37,164 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:37,681 DEBUG   SystemMonitor:25404 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-08 22:51:37,682 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:51:38,100 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:51:38,102 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:51:38,106 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:51:39,001 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:39,210 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:41,219 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:43,245 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:44,159 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:45,288 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:47,300 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:49,185 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:49,324 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:51,351 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:53,108 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:51:53,109 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:51:53,109 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:51:53,387 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:54,297 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:55,407 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:57,456 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:51:59,425 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:51:59,488 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:01,531 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:03,554 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:04,588 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:05,610 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:07,647 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:07,714 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:52:08,113 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:52:08,114 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:52:08,116 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:52:09,683 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:09,684 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:11,701 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:13,761 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:15,416 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:15,555 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 22:52:15,556 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 22:52:15,556 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 22:52:15,559 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 22:52:15,785 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 22:52:17,870 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:19,896 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:20,490 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:21,932 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:23,132 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:52:23,132 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:52:23,133 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:52:23,983 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:25,517 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:26,011 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:28,039 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:30,073 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:30,526 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:32,142 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:34,163 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:35,552 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:36,182 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:37,721 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:52:38,146 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:52:38,148 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:52:38,150 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:52:38,233 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:40,303 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:40,709 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:42,376 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:44,396 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:45,846 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:46,451 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:47,464 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:49,476 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:50,995 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:51,503 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:53,155 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:52:53,165 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:52:53,166 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:52:53,590 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:55,657 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:56,000 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:52:57,701 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:52:59,738 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:01,134 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:01,810 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:03,892 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:05,912 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:06,234 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:07,728 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:53:07,956 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:08,173 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:53:08,174 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:53:08,175 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:53:10,006 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:11,325 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:12,055 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:14,112 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:16,161 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:16,408 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:18,194 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:20,234 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:21,515 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:22,320 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:23,168 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:53:23,189 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:53:23,190 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:53:24,358 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:26,439 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:26,640 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:28,455 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:30,511 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:31,744 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:32,564 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:34,582 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:36,607 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:36,842 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:37,734 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:53:38,179 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:53:38,183 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:53:38,183 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:53:38,655 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:40,719 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:41,988 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:42,812 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:44,913 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:46,971 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:47,008 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:49,004 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:51,033 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:52,039 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:53,063 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:53,199 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:53:53,200 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:53:53,201 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:53:55,074 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:53:56,040 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 22:53:56,041 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 22:53:56,042 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 22:53:56,043 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 22:53:56,086 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 22:53:57,155 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:53:59,125 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:01,144 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:02,202 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:03,219 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:05,263 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:07,307 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:07,384 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:07,741 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:54:08,213 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:54:08,216 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:54:08,218 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:54:09,341 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:11,358 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:12,528 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:13,388 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:14,406 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:16,431 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:17,679 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:18,467 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:20,499 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:22,528 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:22,819 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:23,223 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:54:23,229 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:54:23,232 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:54:24,580 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:26,595 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:28,023 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:28,635 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:30,652 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:32,721 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:33,138 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:34,752 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:36,762 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:37,761 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:54:38,224 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:38,234 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:54:38,235 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:54:38,250 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:54:38,803 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:40,811 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:42,834 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:43,361 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:44,840 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:46,869 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:48,419 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:48,894 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:50,961 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:52,986 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:53,237 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:54:53,238 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:54:53,265 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:54:53,432 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:55,011 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:57,030 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:54:58,464 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:54:59,053 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:01,086 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:03,108 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:03,578 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:05,135 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:07,164 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:07,769 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:55:08,245 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:55:08,245 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:55:08,276 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:55:08,581 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:09,207 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:11,250 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:13,269 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:13,633 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:15,315 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:17,339 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:18,698 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:19,369 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:21,393 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:23,245 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:55:23,246 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:55:23,280 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:55:23,403 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:23,729 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:25,414 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:27,429 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:28,971 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 22:55:28,972 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 22:55:28,972 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 22:55:28,973 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:28,975 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 22:55:29,456 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 22:55:31,483 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:33,549 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:34,094 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:35,591 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:37,622 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:37,798 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:55:38,253 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:55:38,254 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:55:38,308 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:55:39,108 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:39,654 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:41,744 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:43,781 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:44,210 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:45,792 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:47,840 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:49,215 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:49,871 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:51,926 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:53,254 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:55:53,255 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:55:53,337 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:55:53,970 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:54,361 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:55:56,035 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:58,087 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:55:59,402 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:00,112 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:02,159 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:04,249 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:04,453 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:06,294 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:07,814 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:56:08,274 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:56:08,274 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:56:08,327 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:56:08,331 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:09,479 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:10,358 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:12,407 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:14,475 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:14,595 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:15,531 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:17,585 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:19,618 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:19,747 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:21,671 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:23,289 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:56:23,293 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:56:23,345 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:56:23,691 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:24,923 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:25,737 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:27,758 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:29,778 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:29,923 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:31,792 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:33,856 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:35,072 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:35,910 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:37,818 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:56:37,966 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:38,291 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:56:38,291 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:56:38,355 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:56:40,003 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:40,139 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:42,061 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:44,085 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:45,287 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:46,102 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:48,149 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:50,255 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:50,519 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:52,344 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:53,323 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:56:53,323 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:56:53,365 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:56:54,446 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:55,640 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:56:56,513 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:56:58,619 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:00,668 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:00,986 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:02,633 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 22:57:02,634 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 22:57:02,634 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 22:57:02,635 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 22:57:02,693 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 22:57:04,735 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:05,999 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:06,802 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:07,834 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:57:08,336 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:57:08,338 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:57:08,380 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:57:08,848 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:10,864 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:11,058 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:12,939 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:14,979 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:15,987 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:16,188 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:18,050 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:20,114 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:21,292 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:22,173 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:23,357 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:57:23,358 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:57:23,384 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:57:24,184 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:26,233 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:26,437 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:28,300 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:30,361 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:31,511 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:32,402 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:34,452 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:36,469 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:36,627 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:37,838 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:57:38,366 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:57:38,367 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:57:38,396 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:57:38,564 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:40,631 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:41,657 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:42,666 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:44,735 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:46,791 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:46,798 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:48,826 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:50,880 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:51,813 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:52,922 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:53,378 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:57:53,379 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:57:53,413 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:57:54,998 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:56,954 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:57:57,032 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:57:59,047 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:01,117 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:02,088 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:03,160 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:05,170 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:07,196 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:07,206 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:07,849 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:58:08,408 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:58:08,409 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:58:08,441 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:58:09,223 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:11,260 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:12,267 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:13,284 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:15,311 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:17,329 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:17,335 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:19,386 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:21,414 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:22,361 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:23,409 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:58:23,410 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:58:23,428 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:58:23,458 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:25,475 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:27,511 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:27,516 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:29,546 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:31,573 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:32,705 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:33,616 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:35,648 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:37,674 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:37,744 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:37,867 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:58:38,423 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:58:38,424 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:58:38,438 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:58:39,688 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:41,716 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:42,729 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:42,907 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:44,749 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:46,778 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:48,059 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:49,810 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 22:58:49,811 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 22:58:49,811 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 22:58:49,812 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 22:58:49,824 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 22:58:50,836 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:52,878 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:53,219 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:53,437 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:58:53,438 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:58:53,454 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:58:54,924 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:56,942 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:58:58,263 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:58:58,993 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:01,020 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:03,102 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:03,299 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:05,125 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:07,165 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:07,878 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:59:08,391 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:08,437 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:59:08,437 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:59:08,452 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:59:09,182 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:11,237 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:13,292 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:13,601 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:15,341 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:17,361 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:18,612 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:19,383 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:21,432 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:23,503 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:59:23,503 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:59:23,504 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:59:23,510 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:23,744 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:25,536 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:27,568 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:28,768 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:29,599 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:31,618 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:33,696 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:33,931 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:35,741 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:37,783 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:37,893 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 22:59:38,479 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:59:38,481 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:59:38,485 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:59:39,174 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:39,833 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:41,920 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:43,999 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:44,296 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:46,037 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:48,099 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:49,445 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:50,131 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:52,176 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:53,465 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 22:59:53,495 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 22:59:53,495 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 22:59:54,248 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:54,620 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 22:59:56,294 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:58,346 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 22:59:59,821 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:00,431 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:02,457 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:04,470 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:05,044 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:06,586 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:07,911 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:00:08,476 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:00:08,502 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:00:08,503 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:00:08,615 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:10,123 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:10,661 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:12,725 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:14,767 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:15,247 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:16,790 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:18,824 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:20,285 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:20,854 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:22,889 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:23,491 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:00:23,492 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:00:23,495 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:00:24,909 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:25,313 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:25,917 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:27,950 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:30,005 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:30,517 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:32,035 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:34,070 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:35,682 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:36,106 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:37,922 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:00:38,160 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:38,572 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:00:38,573 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:00:38,579 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:00:40,223 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:41,236 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:43,626 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 23:00:43,627 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 23:00:43,628 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 23:00:43,629 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 23:00:44,274 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:44,274 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 23:00:46,302 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:46,417 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:48,326 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:50,344 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:51,503 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:52,365 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:53,545 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:00:53,547 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:00:53,548 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:00:54,385 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:56,420 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:00:56,663 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:00:58,463 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:00,499 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:01,813 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:02,511 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:04,553 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:06,584 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:06,871 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:07,928 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:01:08,538 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:01:08,539 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:01:08,553 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:01:08,600 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:10,668 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:11,920 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:12,726 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:14,798 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:16,817 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:17,022 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:18,841 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:20,846 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:22,072 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:22,913 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:23,550 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:01:23,551 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:01:23,568 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:01:24,935 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:26,957 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:27,131 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:29,022 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:31,051 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:32,309 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:33,117 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:35,163 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:37,169 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:37,329 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:37,933 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:01:38,569 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:01:38,570 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:01:38,585 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:01:39,184 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:41,205 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:42,509 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:43,246 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:45,284 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:47,385 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:47,672 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:49,423 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:51,456 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:52,682 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:53,559 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:53,580 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:01:53,581 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:01:53,600 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:01:54,571 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:56,600 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:01:57,820 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:01:58,670 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:00,717 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:02,752 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:02,863 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:04,782 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:06,809 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:07,934 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:07,943 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:02:08,591 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:02:08,598 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:02:08,626 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:02:08,835 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:10,866 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:12,896 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:13,081 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:14,951 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:17,003 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:18,356 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 23:02:18,357 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 23:02:18,358 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 23:02:18,358 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:18,359 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 23:02:19,074 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:19,075 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 23:02:21,098 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:23,154 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:23,544 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:23,598 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:02:23,598 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:02:23,632 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:02:25,241 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:27,382 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:28,675 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:29,410 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:31,485 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:33,521 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:33,695 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:35,642 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:37,658 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:37,958 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:02:38,622 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:02:38,623 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:02:38,638 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:02:39,366 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:39,684 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:41,706 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:43,719 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:44,452 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:45,749 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:47,778 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:49,563 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:49,818 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:51,854 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:53,619 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:02:53,621 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:02:53,658 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:02:53,881 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:54,584 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:55,919 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:57,957 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:02:59,671 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:02:59,990 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:02,042 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:04,063 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:04,745 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:06,117 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:07,984 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:03:08,185 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:08,622 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:03:08,624 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:03:08,655 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:03:09,211 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:09,808 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:11,230 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:13,259 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:14,863 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:15,289 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:17,330 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:19,415 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:19,919 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:21,433 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:23,458 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:23,634 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:03:23,635 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:03:23,664 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:03:24,987 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:25,475 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:27,504 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:29,525 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:30,098 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:31,546 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:33,579 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:35,234 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:35,617 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:37,645 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:37,977 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:03:38,653 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:03:38,654 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:03:38,669 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:03:39,663 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:40,334 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:41,714 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:43,757 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:45,434 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:45,804 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:47,829 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:49,863 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:51,247 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:53,032 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 23:03:53,033 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 23:03:53,034 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 23:03:53,035 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 23:03:53,660 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:03:53,662 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:03:53,675 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:03:53,908 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:53,909 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 23:03:56,329 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:03:57,964 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:03:59,988 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:01,378 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:02,008 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:04,032 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:06,076 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:06,446 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:07,996 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:04:08,106 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:08,655 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:04:08,656 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:04:08,673 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:04:10,127 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:11,598 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:12,144 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:14,186 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:16,216 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:16,656 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:18,238 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:20,279 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:21,812 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:22,319 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:23,663 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:04:23,664 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:04:23,676 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:04:24,327 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:26,360 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:26,975 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:28,406 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:30,423 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:32,029 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:32,439 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:34,491 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:36,504 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:37,146 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:38,014 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:04:38,540 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:38,670 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:04:38,671 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:04:38,687 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:04:40,561 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:42,208 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:42,591 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:44,620 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:46,659 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:47,343 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:48,688 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:50,714 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:52,497 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:52,744 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:53,692 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:04:53,696 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:04:53,710 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:04:54,770 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:56,804 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:04:57,547 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:04:58,837 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:00,895 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:02,718 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:02,913 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:04,959 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:07,002 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:07,804 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:08,018 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:05:08,692 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:05:08,693 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:05:08,707 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:05:09,035 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:11,070 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:12,864 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:13,111 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:15,146 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:17,196 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:18,034 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:19,255 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:21,273 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:23,304 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:23,700 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:05:23,700 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:05:23,714 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:05:24,391 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:25,330 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:26,885 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 23:05:26,886 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 23:05:26,887 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 23:05:26,887 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 23:05:27,350 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 23:05:29,423 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:29,457 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:31,476 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:33,493 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:34,476 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:35,532 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:37,551 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:38,033 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:05:38,714 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:05:38,715 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:05:38,742 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:05:39,554 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:39,588 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:41,617 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:43,640 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:44,651 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:45,670 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:47,706 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:49,766 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:49,837 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:51,791 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:53,719 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:05:53,720 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:05:53,767 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:05:53,825 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:54,864 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:55,906 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:57,935 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:05:59,917 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:05:59,962 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:02,001 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:04,034 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:05,000 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:06,114 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:08,041 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:06:08,180 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:08,726 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:06:08,727 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:06:08,765 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:06:10,150 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:10,205 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:12,229 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:14,305 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:15,288 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:15,308 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:17,402 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:19,488 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:20,322 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:21,515 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:23,552 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:23,749 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:06:23,750 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:06:23,781 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:06:25,323 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:25,577 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:27,649 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:29,734 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:30,481 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:31,762 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:33,785 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:35,544 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:35,825 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:37,870 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:38,053 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:06:38,752 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:06:38,753 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:06:38,778 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:06:39,905 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:40,714 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:41,932 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:43,991 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:45,816 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:46,004 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:48,076 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:50,156 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:50,860 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:52,248 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:53,746 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-08 23:06:53,748 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: stop_status
+2024-04-08 23:06:53,790 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:06:54,291 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:55,925 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:06:56,323 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:06:58,362 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:07:00,405 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:07:01,062 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:07:01,938 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-08 23:07:01,939 DEBUG   SenderThread:25404 [sender.py:send():379] send: history
+2024-04-08 23:07:01,939 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: summary_record
+2024-04-08 23:07:01,940 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 23:07:02,055 DEBUG   SenderThread:25404 [sender.py:send():379] send: telemetry
+2024-04-08 23:07:02,057 DEBUG   SenderThread:25404 [sender.py:send():379] send: exit
+2024-04-08 23:07:02,057 INFO    SenderThread:25404 [sender.py:send_exit():586] handling exit code: 0
+2024-04-08 23:07:02,057 INFO    SenderThread:25404 [sender.py:send_exit():588] handling runtime: 984
+2024-04-08 23:07:02,058 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 23:07:02,059 INFO    SenderThread:25404 [sender.py:send_exit():594] send defer
+2024-04-08 23:07:02,059 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,059 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-08 23:07:02,060 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,060 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-08 23:07:02,060 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 1
+2024-04-08 23:07:02,060 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,060 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-08 23:07:02,060 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,060 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-08 23:07:02,061 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 2
+2024-04-08 23:07:02,061 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,061 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-08 23:07:02,061 INFO    HandlerThread:25404 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-08 23:07:02,062 DEBUG   SystemMonitor:25404 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-08 23:07:02,062 INFO    HandlerThread:25404 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-08 23:07:02,062 DEBUG   SystemMonitor:25404 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-08 23:07:02,062 INFO    HandlerThread:25404 [interfaces.py:finish():202] Joined disk monitor
+2024-04-08 23:07:02,063 INFO    HandlerThread:25404 [interfaces.py:finish():202] Joined memory monitor
+2024-04-08 23:07:02,063 INFO    HandlerThread:25404 [interfaces.py:finish():202] Joined network monitor
+2024-04-08 23:07:02,063 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,064 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-08 23:07:02,064 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 3
+2024-04-08 23:07:02,064 DEBUG   SenderThread:25404 [sender.py:send():379] send: stats
+2024-04-08 23:07:02,064 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,064 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-08 23:07:02,065 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,065 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-08 23:07:02,065 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 4
+2024-04-08 23:07:02,065 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,065 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-08 23:07:02,066 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,066 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-08 23:07:02,066 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 5
+2024-04-08 23:07:02,067 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,067 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-08 23:07:02,067 DEBUG   SenderThread:25404 [sender.py:send():379] send: summary
+2024-04-08 23:07:02,068 INFO    SenderThread:25404 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-08 23:07:02,069 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,069 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-08 23:07:02,069 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 6
+2024-04-08 23:07:02,070 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,070 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-08 23:07:02,070 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,070 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-08 23:07:02,073 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: status_report
+2024-04-08 23:07:02,251 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 7
+2024-04-08 23:07:02,251 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:02,252 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-08 23:07:02,252 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:02,252 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-08 23:07:02,437 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\config.yaml
+2024-04-08 23:07:02,437 INFO    Thread-16 :25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 23:07:03,065 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 23:07:03,992 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 8
+2024-04-08 23:07:03,993 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 23:07:03,993 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:03,993 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-08 23:07:03,994 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:03,994 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-08 23:07:03,994 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 9
+2024-04-08 23:07:03,994 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:03,994 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-08 23:07:03,995 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:03,995 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-08 23:07:03,995 INFO    SenderThread:25404 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-08 23:07:04,071 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 23:07:04,446 INFO    SenderThread:25404 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:07:04,447 INFO    SenderThread:25404 [dir_watcher.py:finish():388] scan: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files
+2024-04-08 23:07:04,448 INFO    SenderThread:25404 [dir_watcher.py:finish():402] scan save: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\config.yaml config.yaml
+2024-04-08 23:07:04,448 INFO    SenderThread:25404 [dir_watcher.py:finish():402] scan save: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log output.log
+2024-04-08 23:07:04,452 INFO    SenderThread:25404 [dir_watcher.py:finish():402] scan save: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\requirements.txt requirements.txt
+2024-04-08 23:07:04,457 INFO    SenderThread:25404 [dir_watcher.py:finish():402] scan save: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-metadata.json wandb-metadata.json
+2024-04-08 23:07:04,457 INFO    SenderThread:25404 [dir_watcher.py:finish():402] scan save: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json wandb-summary.json
+2024-04-08 23:07:04,462 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 10
+2024-04-08 23:07:04,462 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 23:07:04,462 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:04,462 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-08 23:07:04,463 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:04,463 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-08 23:07:04,463 INFO    SenderThread:25404 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 23:07:05,058 INFO    wandb-upload_0:25404 [upload_job.py:push():131] Uploaded file D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\config.yaml
+2024-04-08 23:07:05,083 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 23:07:05,084 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 23:07:05,112 INFO    wandb-upload_2:25404 [upload_job.py:push():131] Uploaded file D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\requirements.txt
+2024-04-08 23:07:05,140 INFO    wandb-upload_3:25404 [upload_job.py:push():131] Uploaded file D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\wandb-summary.json
+2024-04-08 23:07:05,142 INFO    wandb-upload_1:25404 [upload_job.py:push():131] Uploaded file D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\files\output.log
+2024-04-08 23:07:05,347 INFO    Thread-15 (_thread_body):25404 [sender.py:transition_state():614] send defer: 11
+2024-04-08 23:07:05,348 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:05,349 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-08 23:07:05,349 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:05,349 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-08 23:07:05,350 INFO    SenderThread:25404 [file_pusher.py:join():178] waiting for file pusher
+2024-04-08 23:07:05,351 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 12
+2024-04-08 23:07:05,351 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:05,351 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-08 23:07:05,352 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:05,352 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-08 23:07:05,352 INFO    SenderThread:25404 [file_stream.py:finish():614] file stream finish called
+2024-04-08 23:07:05,865 INFO    SenderThread:25404 [file_stream.py:finish():618] file stream finish is done
+2024-04-08 23:07:05,865 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 13
+2024-04-08 23:07:05,866 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:05,866 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-08 23:07:05,866 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:05,867 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-08 23:07:05,867 INFO    SenderThread:25404 [sender.py:transition_state():614] send defer: 14
+2024-04-08 23:07:05,867 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: defer
+2024-04-08 23:07:05,868 INFO    HandlerThread:25404 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-08 23:07:05,869 DEBUG   SenderThread:25404 [sender.py:send():379] send: final
+2024-04-08 23:07:05,869 DEBUG   SenderThread:25404 [sender.py:send():379] send: footer
+2024-04-08 23:07:05,869 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: defer
+2024-04-08 23:07:05,870 INFO    SenderThread:25404 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-08 23:07:05,872 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-08 23:07:05,872 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: poll_exit
+2024-04-08 23:07:05,875 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-08 23:07:05,876 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: server_info
+2024-04-08 23:07:05,877 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-08 23:07:05,878 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-08 23:07:05,878 DEBUG   SenderThread:25404 [sender.py:send_request():406] send_request: server_info
+2024-04-08 23:07:06,051 DEBUG   HandlerThread:25404 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-08 23:07:06,051 INFO    HandlerThread:25404 [handler.py:finish():866] shutting down handler
+2024-04-08 23:07:06,883 INFO    WriterThread:25404 [datastore.py:close():296] close: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240408_225036-rbz9vzc6\run-rbz9vzc6.wandb
+2024-04-08 23:07:07,055 INFO    SenderThread:25404 [sender.py:finish():1546] shutting down sender
+2024-04-08 23:07:07,056 INFO    SenderThread:25404 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-08 23:07:07,056 INFO    SenderThread:25404 [file_pusher.py:join():178] waiting for file pusher

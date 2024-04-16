@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\train.py", line 14, in train
+    model = TSRNet1(wandb.config.f1, wandb.config.f2, wandb.config.f3, wandb.config.f4, wandb.config.f5, wandb.config.fc_layer_size)
+TypeError: TSRNet1() takes no arguments

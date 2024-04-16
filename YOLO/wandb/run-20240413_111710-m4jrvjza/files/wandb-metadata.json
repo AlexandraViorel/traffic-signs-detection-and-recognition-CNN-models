@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-04-13T08:17:13.003350",
+    "startedAt": "2024-04-13T08:17:10.941399",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Faculty materials\\BACHELORS-THESIS\\YOLO\\train-yolo.py",
+    "codePathLocal": "train-yolo.py",
+    "codePath": "YOLO\\train-yolo.py",
+    "git": {
+        "remote": "https://github.com/AlexandraViorel/BACHELORS-THESIS.git",
+        "commit": "835d3c160dc49a0f53a5466b2314b6c45f0e185f"
+    },
+    "email": "alexsig22@yahoo.com",
+    "root": "D:/Faculty materials/BACHELORS-THESIS",
+    "host": "LAPTOP-JI02NQ9M",
+    "username": "alexs",
+    "executable": "D:\\Faculty materials\\BACHELORS-THESIS\\.venv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1408.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1408.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 337.32519149780273,
+            "used": 264.26681900024414
+        }
+    },
+    "memory": {
+        "total": 15.837203979492188
+    }
+}

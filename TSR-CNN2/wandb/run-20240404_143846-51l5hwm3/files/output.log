@@ -1,0 +1,13 @@
+
+Epoch 1/50
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\TSR-CNN2\train.py", line 30, in train
+    model.fit(aug.flow(x_train, y_train, batch_size=config.batch_size), validation_data=(x_val, y_val), epochs=config.epochs, callbacks=[early_stop_callback, CustomWandbCallback()])
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+ValueError: Exception encountered when calling Conv2D.call().
+[1mNegative dimension size caused by subtracting 5 from 4 for '{{node sequential_1/conv2d_5_1/convolution}} = Conv2D[T=DT_FLOAT, data_format="NHWC", dilations=[1, 1, 1, 1], explicit_paddings=[], padding="VALID", strides=[1, 1, 1, 1], use_cudnn_on_gpu=true](sequential_1/batch_normalization_4_1/batchnorm/add_1, sequential_1/conv2d_5_1/convolution/ReadVariableOp)' with input shapes: [?,4,4,32], [5,5,32,32].
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(None, 4, 4, 32), dtype=float32)

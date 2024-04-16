@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\sdk\wandb_config.py", line 162, in __getattr__
+    return self.__getitem__(key)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\sdk\wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+KeyError: 'fc_layer'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\train.py", line 25, in train
+    model = TSRNet1(wandb.config.f1, wandb.config.f2, wandb.config.f3, wandb.config.f4, wandb.config.f5, wandb.config.fc_layer)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\sdk\wandb_config.py", line 164, in __getattr__
+    raise AttributeError(
+AttributeError: <class 'wandb.sdk.wandb_config.Config'> object has no attribute 'fc_layer'

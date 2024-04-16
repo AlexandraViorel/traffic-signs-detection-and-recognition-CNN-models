@@ -1,0 +1,20 @@
+wandb_version: 1
+
+batch_size:
+  value: 32
+epochs:
+  value: 50
+f1:
+  value: 48
+f2:
+  value: 32
+f3:
+  value: 24
+f4:
+  value: 24
+f5:
+  value: 48
+fc_layer_size:
+  value: 1024
+learning_rate:
+  value: 0.0001
