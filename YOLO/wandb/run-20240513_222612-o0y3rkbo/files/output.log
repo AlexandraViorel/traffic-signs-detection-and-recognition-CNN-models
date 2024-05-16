@@ -1,0 +1,122 @@
+[34m[1mtrain: [39m[22mScanning D:\Faculty materials\bachelors\datasets\GTSDB\train\labels.cache... 788 images, 0 backgrounds, 0 corrupt: 100%|██████████| 788/788 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning D:\Faculty materials\bachelors\datasets\GTSDB\valid\labels.cache... 218 images, 0 backgrounds, 0 corrupt: 100%|██████████| 218/218 [00:00<?, ?it/s]
+Freezing layer 'model.22.dfl.conv.weight'
+Plotting labels to D:\Faculty materials\BACHELORS-THESIS\runs\detect\train3\labels.jpg...
+[34m[1moptimizer:[39m[22m SGD(lr=0.01, momentum=0.937) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+  0%|          | 0/50 [00:00<?, ?it/s]
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mD:\Faculty materials\BACHELORS-THESIS\runs\detect\train3
+Starting training for 200 epochs...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      1/200         0G      2.106      4.711      1.391          9        640: 100%|██████████| 50/50 [07:49<00:00,  9.38s/it]
+
+
+
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):  86%|████████▌ | 6/7 [00:51<00:08,  8.31s/it]
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 7/7 [00:57<00:00,  8.24s/it]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      2/200         0G      1.839       3.24      1.316         34        640:  44%|████▍     | 22/50 [03:35<04:34,  9.81s/it]
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\YOLO\train-yolo.py", line 4, in <module>
+    results = model.train(data=r'D:\Faculty materials\bachelors\datasets\GTSDB\data.yaml', epochs=200, verbose=True, plots=True, optimizer='SGD', save_dir=r'D:\Faculty materials\BACHELORS-THESIS\YOLO\runs\detect\train200')
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\ultralytics\engine\model.py", line 668, in train
+    self.trainer.train()
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\ultralytics\engine\trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\ultralytics\engine\trainer.py", line 378, in _do_train
+    self.scaler.scale(self.loss).backward()
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\YOLO\train-yolo.py", line 4, in <module>
+    results = model.train(data=r'D:\Faculty materials\bachelors\datasets\GTSDB\data.yaml', epochs=200, verbose=True, plots=True, optimizer='SGD', save_dir=r'D:\Faculty materials\BACHELORS-THESIS\YOLO\runs\detect\train200')
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\ultralytics\engine\model.py", line 668, in train
+    self.trainer.train()
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\ultralytics\engine\trainer.py", line 198, in train
+    self._do_train(world_size)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\ultralytics\engine\trainer.py", line 378, in _do_train
+    self.scaler.scale(self.loss).backward()
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

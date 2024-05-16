@@ -1,0 +1,36 @@
+2024-05-10 18:50:52,246 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-05-10 18:50:52,246 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Configure stats pid to 22000
+2024-05-10 18:50:52,247 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Loading settings from C:\Users\alexs\.config\wandb\settings
+2024-05-10 18:50:52,247 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Loading settings from D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\settings
+2024-05-10 18:50:52,247 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TSRNet3Original', 'entity': 'viorel-alexandraa', 'root_dir': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3', 'run_id': 'lna2z927', 'sweep_param_path': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\wandb\\sweep-i1wymf9b\\config-lna2z927.yaml', 'sweep_id': 'i1wymf9b'}
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'TSR-CNN3\\train.py', 'program_abspath': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\train.py', 'program': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\train.py'}
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_init.py:_log_setup():527] Logging user logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\run-20240510_185052-lna2z927\logs\debug.log
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_init.py:_log_setup():528] Logging internal logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\run-20240510_185052-lna2z927\logs\debug-internal.log
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():567] calling init triggers
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():574] wandb.init called with sweep_config: {'batch_size': 32, 'drop': 0.5, 'epochs': 100, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 512, 'learning_rate': 0.001}
+config: {}
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():617] starting backend
+2024-05-10 18:50:52,248 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():621] setting up manager
+2024-05-10 18:50:52,256 INFO    Thread-18 (_run_job):22000 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-10 18:50:52,257 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():629] backend started and connected
+2024-05-10 18:50:52,272 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_config_callback():1347] config_cb None None {'batch_size': 32, 'drop': 0.5, 'epochs': 100, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 512, 'learning_rate': 0.001}
+2024-05-10 18:50:52,273 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():721] updated telemetry
+2024-05-10 18:50:52,313 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-05-10 18:50:52,800 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_on_init():2344] communicating current version
+2024-05-10 18:50:52,987 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-05-10 18:50:52,988 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():805] starting run threads in backend
+2024-05-10 18:50:53,300 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_console_start():2323] atexit reg
+2024-05-10 18:50:53,300 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-05-10 18:50:53,300 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-05-10 18:50:53,301 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-05-10 18:50:53,302 INFO    Thread-18 (_run_job):22000 [wandb_init.py:init():848] run started, returning control to user process
+2024-05-10 18:51:14,919 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_finish():2052] finishing run viorel-alexandraa/TSRNet3Original/lna2z927
+2024-05-10 18:51:14,919 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_atexit_cleanup():2292] got exitcode: 1
+2024-05-10 18:51:14,920 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_restore():2275] restore
+2024-05-10 18:51:14,920 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_restore():2281] restore done
+2024-05-10 18:51:19,143 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_footer_history_summary_info():3920] rendering history
+2024-05-10 18:51:19,144 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_footer_history_summary_info():3952] rendering summary
+2024-05-10 18:51:19,148 INFO    Thread-18 (_run_job):22000 [wandb_run.py:_footer_sync_info():3879] logging synced files

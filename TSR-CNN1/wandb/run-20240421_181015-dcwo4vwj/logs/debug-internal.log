@@ -1,0 +1,50 @@
+2024-04-21 18:10:15,099 INFO    StreamThr :7676 [internal.py:wandb_internal():86] W&B internal server running at pid: 7676, started at: 2024-04-21 18:10:15.098635
+2024-04-21 18:10:15,101 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: status
+2024-04-21 18:10:15,122 INFO    WriterThread:7676 [datastore.py:open_for_write():87] open: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\run-dcwo4vwj.wandb
+2024-04-21 18:10:15,123 DEBUG   SenderThread:7676 [sender.py:send():379] send: header
+2024-04-21 18:10:16,442 DEBUG   SenderThread:7676 [sender.py:send():379] send: run
+2024-04-21 18:10:16,867 INFO    SenderThread:7676 [dir_watcher.py:__init__():211] watching files in: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\files
+2024-04-21 18:10:16,867 INFO    SenderThread:7676 [sender.py:_start_run_threads():1124] run started: dcwo4vwj with start time 1713712215.098635
+2024-04-21 18:10:16,880 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: check_version
+2024-04-21 18:10:16,880 DEBUG   SenderThread:7676 [sender.py:send_request():406] send_request: check_version
+2024-04-21 18:10:17,071 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: run_start
+2024-04-21 18:10:17,079 DEBUG   HandlerThread:7676 [system_info.py:__init__():26] System info init
+2024-04-21 18:10:17,079 DEBUG   HandlerThread:7676 [system_info.py:__init__():41] System info init done
+2024-04-21 18:10:17,079 INFO    HandlerThread:7676 [system_monitor.py:start():194] Starting system monitor
+2024-04-21 18:10:17,079 INFO    SystemMonitor:7676 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-21 18:10:17,079 INFO    HandlerThread:7676 [system_monitor.py:probe():214] Collecting system info
+2024-04-21 18:10:17,084 INFO    SystemMonitor:7676 [interfaces.py:start():190] Started cpu monitoring
+2024-04-21 18:10:17,089 DEBUG   HandlerThread:7676 [system_info.py:probe():150] Probing system
+2024-04-21 18:10:17,089 INFO    SystemMonitor:7676 [interfaces.py:start():190] Started disk monitoring
+2024-04-21 18:10:17,098 INFO    SystemMonitor:7676 [interfaces.py:start():190] Started memory monitoring
+2024-04-21 18:10:17,107 INFO    SystemMonitor:7676 [interfaces.py:start():190] Started network monitoring
+2024-04-21 18:10:17,108 DEBUG   HandlerThread:7676 [system_info.py:_probe_git():135] Probing git
+2024-04-21 18:10:17,211 DEBUG   HandlerThread:7676 [system_info.py:_probe_git():143] Probing git done
+2024-04-21 18:10:17,211 DEBUG   HandlerThread:7676 [system_info.py:probe():198] Probing system done
+2024-04-21 18:10:17,211 DEBUG   HandlerThread:7676 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.10', 'heartbeatAt': '2024-04-21T15:10:17.089880', 'startedAt': '2024-04-21T15:10:15.085358', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN1\\train.py', 'codePathLocal': 'train.py', 'codePath': 'TSR-CNN1\\train.py', 'git': {'remote': 'https://github.com/AlexandraViorel/BACHELORS-THESIS.git', 'commit': '60f536525c98afaeb071d9c8aa140337024afa3a'}, 'email': 'alexsig22@yahoo.com', 'root': 'D:/Faculty materials/BACHELORS-THESIS', 'host': 'LAPTOP-JI02NQ9M', 'username': 'alexs', 'executable': 'D:\\Faculty materials\\BACHELORS-THESIS\\.venv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2112.0, 'min': 0.0, 'max': 2112.0}, 'cpu_freq_per_core': [{'current': 2112.0, 'min': 0.0, 'max': 2112.0}], 'disk': {'/': {'total': 337.32519149780273, 'used': 274.78527450561523}}, 'memory': {'total': 15.837203979492188}}
+2024-04-21 18:10:17,211 INFO    HandlerThread:7676 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-21 18:10:17,211 INFO    HandlerThread:7676 [system_monitor.py:probe():227] Publishing system info
+2024-04-21 18:10:17,212 INFO    HandlerThread:7676 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-21 18:10:17,230 DEBUG   SenderThread:7676 [sender.py:send():379] send: files
+2024-04-21 18:10:17,230 INFO    SenderThread:7676 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-21 18:10:17,882 INFO    Thread-16 :7676 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\files\wandb-metadata.json
+2024-04-21 18:10:17,908 INFO    wandb-upload_0:7676 [upload_job.py:push():131] Uploaded file C:\Users\alexs\AppData\Local\Temp\tmp5qd8rwa8wandb\gszzf56n-wandb-metadata.json
+2024-04-21 18:10:18,306 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-21 18:10:18,306 DEBUG   SenderThread:7676 [sender.py:send_request():406] send_request: python_packages
+2024-04-21 18:10:18,307 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-21 18:10:18,308 DEBUG   SenderThread:7676 [sender.py:send_request():406] send_request: stop_status
+2024-04-21 18:10:18,309 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-21 18:10:18,570 DEBUG   SenderThread:7676 [sender.py:send():379] send: telemetry
+2024-04-21 18:10:18,884 INFO    Thread-16 :7676 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\files\requirements.txt
+2024-04-21 18:10:18,884 INFO    Thread-16 :7676 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\files\output.log
+2024-04-21 18:10:20,587 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: status_report
+2024-04-21 18:10:20,911 INFO    Thread-16 :7676 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\files\output.log
+2024-04-21 18:10:25,626 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: status_report
+2024-04-21 18:10:29,011 INFO    Thread-16 :7676 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\files\output.log
+2024-04-21 18:10:31,565 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: status_report
+2024-04-21 18:10:33,310 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-21 18:10:33,311 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-21 18:10:33,311 DEBUG   SenderThread:7676 [sender.py:send_request():406] send_request: stop_status
+2024-04-21 18:10:36,612 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: status_report
+2024-04-21 18:10:37,100 INFO    Thread-16 :7676 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240421_181015-dcwo4vwj\files\output.log
+2024-04-21 18:10:41,660 DEBUG   HandlerThread:7676 [handler.py:handle_request():146] handle_request: status_report

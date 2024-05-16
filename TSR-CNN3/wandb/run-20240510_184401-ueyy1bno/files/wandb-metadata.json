@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.10",
+    "heartbeatAt": "2024-05-10T15:44:02.788865",
+    "startedAt": "2024-05-10T15:44:01.980991",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "TSR-CNN3\\train.py",
+    "git": {
+        "remote": "https://github.com/AlexandraViorel/BACHELORS-THESIS.git",
+        "commit": "60f536525c98afaeb071d9c8aa140337024afa3a"
+    },
+    "email": "alexsig22@yahoo.com",
+    "root": "D:/Faculty materials/BACHELORS-THESIS",
+    "host": "LAPTOP-JI02NQ9M",
+    "username": "alexs",
+    "executable": "D:\\Faculty materials\\BACHELORS-THESIS\\.venv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2112.0,
+        "min": 0.0,
+        "max": 2112.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2112.0,
+            "min": 0.0,
+            "max": 2112.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 337.32519149780273,
+            "used": 272.3354301452637
+        }
+    },
+    "memory": {
+        "total": 15.837203979492188
+    }
+}

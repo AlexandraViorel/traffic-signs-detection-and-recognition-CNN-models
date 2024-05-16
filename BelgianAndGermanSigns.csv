@@ -1,0 +1,76 @@
+ClassId,Name
+0,Speed limit (20km/h)
+1,Speed limit (30km/h)
+2,Speed limit (50km/h)
+3,Speed limit (60km/h)
+4,Speed limit (70km/h)
+5,Speed limit (80km/h)
+6,End of speed limit (80km/h)
+7,Speed limit (100km/h)
+8,Speed limit (120km/h)
+9,No passing
+10,No passing veh over 3.5 tons
+11,Right-of-way at intersection
+12,Priority road
+13,Yield
+14,Stop
+15,No vehicles
+16,Vehicles > 3.5 tons prohibited
+17,No entry
+18,General caution
+19,Dangerous curve left
+20,Dangerous curve right
+21,Double curve left
+22,Bumpy road
+23,Slippery road
+24,Road narrows on the right
+25,Road work
+26,Traffic signals
+27,Crossing for pedestrians warning
+28,Children crossing
+29,Bicycles crossing
+30,Beware of ice/snow
+31,Wild animals crossing
+32,End speed + passing limits
+33,Turn right ahead
+34,Turn left ahead
+35,Ahead only
+36,Go straight or right
+37,Go straight or left
+38,Keep right
+39,Keep left
+40,Roundabout mandatory
+41,End of no passing
+42,End no passing vehicle with a weight greater than 3.5 tons
+43,Speed bumps
+44,Double curve right
+45,Cattle crossing
+46,Railroad crossing ahead with barriers
+47,Road narrows on both sides
+48,Road narrows on the left
+49,Crossroad ahead side road to the right
+50,Uncontrolled crossroad
+51,Give way to oncoming Traffic
+52,Vehicles weighing heavier than indicated forbidden
+53,Vehicles wider than indicated forbidden
+54,Height restriction
+55,Turn left prohibited
+56,Turn right prohibited
+57,Shared path for pedestrians and cyclists
+58,Turning right compulsory
+59,Bike path
+60,Divided path for pedestrians and cyclists
+61,No parking
+62,Stopping and parking forbidden
+63,Priority over oncoming traffic
+64,Parking
+65,Handicap parking
+66,Car parking
+67,Truck parking
+68,Bus parking
+69,Residential area
+70,End of residential area
+71,One way
+72,Dead end
+73,Crossing for pedestrians
+74,Priority road ends

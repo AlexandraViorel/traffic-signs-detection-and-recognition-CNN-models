@@ -1,0 +1,35 @@
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Configure stats pid to 16972
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Loading settings from C:\Users\alexs\.config\wandb\settings
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Loading settings from D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\settings
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TSRNet1', 'entity': 'viorel-alexandraa', 'root_dir': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN1', 'run_id': 'sa0t8a5q', 'sweep_param_path': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN1\\wandb\\sweep-01dvvqye\\config-sa0t8a5q.yaml', 'sweep_id': '01dvvqye'}
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'TSR-CNN1\\train.py', 'program_abspath': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN1\\train.py', 'program': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN1\\train.py'}
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_init.py:_log_setup():527] Logging user logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240420_221028-sa0t8a5q\logs\debug.log
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_init.py:_log_setup():528] Logging internal logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN1\wandb\run-20240420_221028-sa0t8a5q\logs\debug-internal.log
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():567] calling init triggers
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():574] wandb.init called with sweep_config: {'batch_size': 32, 'drop': 0.3, 'epochs': 100, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 512, 'learning_rate': 0.0001}
+config: {}
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():617] starting backend
+2024-04-20 22:10:28,767 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():621] setting up manager
+2024-04-20 22:10:28,774 INFO    Thread-25 (_run_job):16972 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-20 22:10:28,774 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():629] backend started and connected
+2024-04-20 22:10:28,784 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_config_callback():1347] config_cb None None {'batch_size': 32, 'drop': 0.3, 'epochs': 100, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 512, 'learning_rate': 0.0001}
+2024-04-20 22:10:28,800 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():721] updated telemetry
+2024-04-20 22:10:29,149 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-04-20 22:10:29,817 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_on_init():2344] communicating current version
+2024-04-20 22:10:30,038 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-20 22:10:30,038 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():805] starting run threads in backend
+2024-04-20 22:10:31,125 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_console_start():2323] atexit reg
+2024-04-20 22:10:31,126 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-04-20 22:10:31,126 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-04-20 22:10:31,126 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-04-20 22:10:31,126 INFO    Thread-25 (_run_job):16972 [wandb_init.py:init():848] run started, returning control to user process
+2024-04-20 22:10:31,127 INFO    Thread-25 (_run_job):16972 [wandb_config.py:__setitem__():151] config set architecture_name = TSR-CNN1 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000207E62494B0>>
+2024-04-20 22:10:31,127 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_config_callback():1347] config_cb architecture_name TSR-CNN1 None
+2024-04-20 22:10:31,127 INFO    Thread-25 (_run_job):16972 [wandb_config.py:__setitem__():151] config set dataset_name = GTSRB - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000207E62494B0>>
+2024-04-20 22:10:31,127 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_config_callback():1347] config_cb dataset_name GTSRB None
+2024-04-20 22:10:31,127 INFO    Thread-25 (_run_job):16972 [wandb_config.py:__setitem__():151] config set optimizer = SGD - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x00000207E62494B0>>
+2024-04-20 22:10:31,127 INFO    Thread-25 (_run_job):16972 [wandb_run.py:_config_callback():1347] config_cb optimizer SGD None

@@ -5,11 +5,14 @@ import numpy as np
 sign_labels = open("SignsNames.csv").read().strip().split("\n")[1:]
 sign_labels = [l.split(",")[1] for l in sign_labels]
 
-good_models = ["TSR-CNN2\TSRNet2\models\silvery-sweep-1.h5", "TSR-CNN2\TSRNet2\models\glad-sweep-2.h5", "TSR-CNN1\TSRNet1\models\dandy-sweep-1.h5", "TSR-CNN1\TSRNet1\models\magic-sweep-2.h5",
-               "TSR-CNN1\TSRNet1\models\dutiful-sweep-4.h5", r"TSR-CNN1\TSRNet1\models\fluent-sweep-1.h5", "TSR-CNN1\TSRNet1\models\expert-sweep-1.h5", r"TSR-CNN1\TSRNet1\models\avid-sweep-2.h5",
-               "TSR-CNN1\TSRNet1\models\young-sweep-1.h5", "TSR-CNN1\TSRNet1\models\lilac-sweep-1.h5"]
+# good_models = ["TSR-CNN2\TSRNet2\models\silvery-sweep-1.h5", "TSR-CNN2\TSRNet2\models\glad-sweep-2.h5", "TSR-CNN1\TSRNet1\models\dandy-sweep-1.h5", "TSR-CNN1\TSRNet1\models\magic-sweep-2.h5",
+#                "TSR-CNN1\TSRNet1\models\dutiful-sweep-4.h5", r"TSR-CNN1\TSRNet1\models\fluent-sweep-1.h5", "TSR-CNN1\TSRNet1\models\expert-sweep-1.h5", r"TSR-CNN1\TSRNet1\models\avid-sweep-2.h5",
+#                "TSR-CNN1\TSRNet1\models\young-sweep-1.h5", "TSR-CNN1\TSRNet1\models\lilac-sweep-1.h5"]
 
-images = ["general_caution.jpg", "stop.jpg"]
+good_models = [r"TSR-CNN1\TSRNet1\models\golden-sweep-2.h5"]
+
+images = [r"test_imgs\00200.png", "test_imgs\stop.jpg", "test_imgs\stop1.jpeg", r"test_imgs\traffic_signals.jpg", r"test_imgs\turn_right.jpeg", "test_imgs\warning_crossing.jpg"]
+true_label = [17, 14, 14, 26, 33, 27]
 l = []
 
 for i in images:
@@ -30,4 +33,5 @@ for model_path in good_models:
         predicted_index = np.argmax(prediction)
         # Fetch the sign label using the predicted index
         predicted_label = sign_labels[predicted_index]
-        print(f"Image: {images[i]}, Prediction: {predicted_label}")
+        actual_label = sign_labels[true_label[i]]
+        print(f"Image: {images[i]}, Prediction: {predicted_label}, Actual label: {actual_label}")

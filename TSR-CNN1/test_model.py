@@ -12,6 +12,8 @@ x_test, y_test = load_test_dataset()
 models_directory = "TSRNet1\models"
 
 model_files = [f for f in os.listdir(models_directory) if f.endswith('.h5')]
+print(len(model_files))
+# model_files = ["earnest-sweep-2.h5", "mild-sweep-11.h5", "ancient-sweep-8.h5", "copper-sweep-7.h5", "ancient-sweep-6.h5", "rosy-sweep-4.h5", "brisk-sweep-3.h5", "pleasant-sweep-1.h5"]
 
 for model_file in model_files:
     print(f"[INFO] Evaluating model {model_file}...")

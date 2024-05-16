@@ -1,0 +1,42 @@
+2024-05-10 18:53:32,013 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-05-10 18:53:32,013 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Configure stats pid to 4888
+2024-05-10 18:53:32,013 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Loading settings from C:\Users\alexs\.config\wandb\settings
+2024-05-10 18:53:32,013 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Loading settings from D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\settings
+2024-05-10 18:53:32,013 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TSRNet3Original', 'entity': 'viorel-alexandraa', 'root_dir': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3', 'sweep_id': '952pnvuf', 'run_id': 'e6jhgjbt', 'sweep_param_path': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\wandb\\sweep-952pnvuf\\config-e6jhgjbt.yaml'}
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'TSR-CNN3\\train.py', 'program_abspath': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\train.py', 'program': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\train.py'}
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_init.py:_log_setup():527] Logging user logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\run-20240510_185332-e6jhgjbt\logs\debug.log
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_init.py:_log_setup():528] Logging internal logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\run-20240510_185332-e6jhgjbt\logs\debug-internal.log
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():567] calling init triggers
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():574] wandb.init called with sweep_config: {'batch_size': 64, 'drop': 0.5, 'epochs': 50, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 512, 'learning_rate': 0.001}
+config: {}
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():617] starting backend
+2024-05-10 18:53:32,015 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():621] setting up manager
+2024-05-10 18:53:32,025 INFO    Thread-10 (_run_job):4888 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-10 18:53:32,030 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():629] backend started and connected
+2024-05-10 18:53:32,047 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_config_callback():1347] config_cb None None {'batch_size': 64, 'drop': 0.5, 'epochs': 50, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 512, 'learning_rate': 0.001}
+2024-05-10 18:53:32,048 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():721] updated telemetry
+2024-05-10 18:53:32,090 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-05-10 18:53:32,579 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_on_init():2344] communicating current version
+2024-05-10 18:53:32,771 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-05-10 18:53:32,771 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():805] starting run threads in backend
+2024-05-10 18:53:33,084 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_console_start():2323] atexit reg
+2024-05-10 18:53:33,084 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-05-10 18:53:33,084 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-05-10 18:53:33,084 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-05-10 18:53:33,085 INFO    Thread-10 (_run_job):4888 [wandb_init.py:init():848] run started, returning control to user process
+2024-05-10 18:53:54,004 INFO    Thread-10 (_run_job):4888 [wandb_config.py:__setitem__():151] config set architecture_name = TSR-CNN3 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002CAC0676500>>
+2024-05-10 18:53:54,004 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_config_callback():1347] config_cb architecture_name TSR-CNN3 None
+2024-05-10 18:53:54,004 INFO    Thread-10 (_run_job):4888 [wandb_config.py:__setitem__():151] config set dataset_name = GermanAndBelgianTS - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002CAC0676500>>
+2024-05-10 18:53:54,004 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_config_callback():1347] config_cb dataset_name GermanAndBelgianTS None
+2024-05-10 18:53:54,004 INFO    Thread-10 (_run_job):4888 [wandb_config.py:__setitem__():151] config set optimizer = SGD - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000002CAC0676500>>
+2024-05-10 18:53:54,004 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_config_callback():1347] config_cb optimizer SGD None
+2024-05-10 20:05:22,209 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_finish():2052] finishing run viorel-alexandraa/TSRNet3Original/e6jhgjbt
+2024-05-10 20:05:22,210 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_atexit_cleanup():2292] got exitcode: 0
+2024-05-10 20:05:22,211 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_restore():2275] restore
+2024-05-10 20:05:22,212 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_restore():2281] restore done
+2024-05-10 20:05:28,947 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_footer_history_summary_info():3920] rendering history
+2024-05-10 20:05:28,948 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_footer_history_summary_info():3952] rendering summary
+2024-05-10 20:05:28,958 INFO    Thread-10 (_run_job):4888 [wandb_run.py:_footer_sync_info():3879] logging synced files

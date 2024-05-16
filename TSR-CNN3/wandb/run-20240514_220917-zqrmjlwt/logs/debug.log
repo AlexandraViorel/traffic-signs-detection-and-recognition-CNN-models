@@ -1,0 +1,102 @@
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Configure stats pid to 3444
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Loading settings from C:\Users\alexs\.config\wandb\settings
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Loading settings from D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\settings
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'TSRNet3New', 'entity': 'viorel-alexandraa', 'root_dir': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3', 'run_id': 'zqrmjlwt', 'sweep_param_path': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\wandb\\sweep-8zpweps3\\config-zqrmjlwt.yaml', 'sweep_id': '8zpweps3'}
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'TSR-CNN3\\train.py', 'program_abspath': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\train.py', 'program': 'D:\\Faculty materials\\BACHELORS-THESIS\\TSR-CNN3\\train.py'}
+2024-05-14 22:09:17,560 INFO    Thread-18 (_run_job):3444 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-14 22:09:17,562 INFO    Thread-18 (_run_job):3444 [wandb_init.py:_log_setup():527] Logging user logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\run-20240514_220917-zqrmjlwt\logs\debug.log
+2024-05-14 22:09:17,562 INFO    Thread-18 (_run_job):3444 [wandb_init.py:_log_setup():528] Logging internal logs to D:\Faculty materials\BACHELORS-THESIS\TSR-CNN3\wandb\run-20240514_220917-zqrmjlwt\logs\debug-internal.log
+2024-05-14 22:09:17,562 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():567] calling init triggers
+2024-05-14 22:09:17,562 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():574] wandb.init called with sweep_config: {'batch_size': 32, 'drop': 0.4, 'epochs': 100, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 256, 'k': 5, 'learning_rate': 0.0001}
+config: {}
+2024-05-14 22:09:17,562 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():617] starting backend
+2024-05-14 22:09:17,562 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():621] setting up manager
+2024-05-14 22:09:17,570 INFO    Thread-18 (_run_job):3444 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-14 22:09:17,572 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():629] backend started and connected
+2024-05-14 22:09:17,586 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_config_callback():1347] config_cb None None {'batch_size': 32, 'drop': 0.4, 'epochs': 100, 'f1': 24, 'f2': 32, 'f3': 48, 'fc_layer_size': 256, 'k': 5, 'learning_rate': 0.0001}
+2024-05-14 22:09:17,624 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():721] updated telemetry
+2024-05-14 22:09:17,665 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-05-14 22:09:18,166 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_on_init():2344] communicating current version
+2024-05-14 22:09:18,421 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.17.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-05-14 22:09:18,421 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():805] starting run threads in backend
+2024-05-14 22:09:18,717 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_console_start():2323] atexit reg
+2024-05-14 22:09:18,717 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-05-14 22:09:18,717 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-05-14 22:09:18,717 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-05-14 22:09:18,719 INFO    Thread-18 (_run_job):3444 [wandb_init.py:init():848] run started, returning control to user process
+2024-05-14 22:09:40,825 INFO    Thread-18 (_run_job):3444 [wandb_config.py:__setitem__():151] config set architecture_name = TSR-CNN3New - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000024901891E10>>
+2024-05-14 22:09:40,825 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_config_callback():1347] config_cb architecture_name TSR-CNN3New None
+2024-05-14 22:09:40,825 INFO    Thread-18 (_run_job):3444 [wandb_config.py:__setitem__():151] config set dataset_name = GermanAndBelgianTS - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000024901891E10>>
+2024-05-14 22:09:40,825 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_config_callback():1347] config_cb dataset_name GermanAndBelgianTS None
+2024-05-14 22:09:40,825 INFO    Thread-18 (_run_job):3444 [wandb_config.py:__setitem__():151] config set optimizer = SGD - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000024901891E10>>
+2024-05-14 22:09:40,825 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_config_callback():1347] config_cb optimizer SGD None
+2024-05-14 23:01:24,387 INFO    Thread-9 (_heartbeat):3444 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\alexs\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000024901D73D00>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024901D73D00>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\sdk\internal\internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Faculty materials\BACHELORS-THESIS\.venv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024901D73D00>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2024-05-15 03:43:16,018 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_finish():2052] finishing run viorel-alexandraa/TSRNet3New/zqrmjlwt
+2024-05-15 03:43:16,018 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_atexit_cleanup():2292] got exitcode: 0
+2024-05-15 03:43:16,019 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_restore():2275] restore
+2024-05-15 03:43:16,020 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_restore():2281] restore done
+2024-05-15 03:43:24,746 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_footer_history_summary_info():3920] rendering history
+2024-05-15 03:43:24,747 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_footer_history_summary_info():3952] rendering summary
+2024-05-15 03:43:24,758 INFO    Thread-18 (_run_job):3444 [wandb_run.py:_footer_sync_info():3879] logging synced files
