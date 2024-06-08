@@ -1,7 +1,8 @@
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report, accuracy_score
 from keras.models import load_model
 from data_processing import load_test_dataset
 import os
+import numpy as np
 
 BS=32
 sign_labels = open("D:\Faculty materials\BACHELORS-THESIS\SignsNames.csv").read().strip().split("\n")[1:]
@@ -21,4 +22,8 @@ for model_file in model_files:
     model_path = os.path.join(models_directory, model_file)
     model = load_model(model_path)
     predictions = model.predict(x_test, batch_size=BS)
-    print(classification_report(y_test.argmax(axis=1), predictions.argmax(axis=1), target_names=sign_labels))
+    y_pred_classes = np.argmax(predictions, axis=1)
+    y_test_classes = np.argmax(y_test, axis=1)
+    # print(classification_report(y_test.argmax(axis=1), predictions.argmax(axis=1), target_names=sign_labels))
+    accuracy = accuracy_score(y_test_classes, y_pred_classes)
+    print(f'Accuracy: {accuracy}')

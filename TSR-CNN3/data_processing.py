@@ -33,6 +33,28 @@ def load_data(dataset_path):
     labels_list = np.array(labels_list)
     return image_list, labels_list
 
+def load_test_data(dataset_path, csv_path):
+    image_list = []
+    labels_list = []
+    classes = 43
+
+    rows = open(csv_path).read().strip().split("\n")[1:]
+
+    for (i, row) in enumerate(rows):
+        if i > 0 and i % 1000 == 0:
+            print(f"[INFO] processed {i} images...")
+        (label, image_path) = row.strip().split(",")[-2:]
+        image_path = os.path.join(dataset_path, image_path)
+        image = io.imread(image_path)
+        image = transform.resize(image, (45, 45))
+        image_list.append(image)
+        labels_list.append(label)
+
+    image_list = np.array(image_list, dtype=np.float32) / 255.0
+    labels_list = np.array(labels_list)
+    return image_list, labels_list
+
+
 def split_train_val():
     print("[INFO] loading train and val images...")
     dataset_path = r"D:\Faculty materials\bachelors\datasets\GermanAndBelgianTS"
@@ -47,10 +69,10 @@ def split_train_val():
     return x_train, x_val, y_train, y_val
 
 def load_test_dataset():
-    csv_path_test = r"D:\Faculty materials\bachelors\datasets\GTSRB\Test.csv"
-    dataset_path = r"D:\Faculty materials\bachelors\datasets\GTSRB"
+    csv_path_test = r"D:\Faculty materials\bachelors\datasets\GermanAndBelgianTS_Test\Test_cleaned.csv"
+    dataset_path = r"D:\Faculty materials\bachelors\datasets\GermanAndBelgianTS_Test"
 
-    x_test, y_test = load_data(dataset_path, csv_path_test)
+    x_test, y_test = load_test_data(dataset_path, csv_path_test)
     y_test = to_categorical(y_test, 75)
 
     return x_test, y_test

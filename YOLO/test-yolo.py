@@ -1,8 +1,9 @@
 from ultralytics import YOLO
 
-model = YOLO(r'D:\Faculty materials\BACHELORS-THESIS\runs\detect\train\weights\best.pt')
+model = YOLO(r'D:\Faculty materials\BACHELORS-THESIS\YOLO\runs_gpu\detect\train200\weights\best.pt')
 
-results = model([r'my-imgs\1.jpg', r'my-imgs\2.jpg', r'my-imgs\3.jpg', r'my-imgs\4.jpg', r'my-imgs\5.jpg', r'my-imgs\6.jpg', r'my-imgs\7.jpg'])  # return a list of Results objects
+# results = model([r'my-imgs\1.jpg', r'my-imgs\2.jpg', r'my-imgs\3.jpg', r'my-imgs\4.jpg', r'my-imgs\5.jpg', r'my-imgs\6.jpg', r'my-imgs\7.jpg'])  # return a list of Results objects
+results = model([r'my-videos\video1.mp4'])
 i=1
 # Process results list
 for result in results:
@@ -11,5 +12,5 @@ for result in results:
     keypoints = result.keypoints  # Keypoints object for pose outputs
     probs = result.probs  # Probs object for classification outputs
     result.show()  # display to screen
-    result.save(filename=f'result{i}.jpg')
-    i+=1
+    # result.save(filename=f'result{i}.jpg')
+    # i+=1
