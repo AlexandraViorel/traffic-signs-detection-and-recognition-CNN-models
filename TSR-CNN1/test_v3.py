@@ -26,7 +26,7 @@ def load_data(dataset_path, csv_path):
         labels_list.append(label)
 
     image_list = np.array(image_list, dtype=np.float32) / 255.0
-    labels_list = np.array(labels_list, dtype=np.int32)  # Ensure labels are integers
+    labels_list = np.array(labels_list, dtype=np.int32)  
     return image_list, labels_list
 
 def load_test_dataset():
@@ -38,7 +38,6 @@ def load_test_dataset():
 
     return x_test, y_test
 
-# Main evaluation function
 def evaluate_models(models_directory, x_test, y_test, batch_size):
     num_classes = len(np.unique(np.argmax(y_test, axis=1)))
     
@@ -49,31 +48,24 @@ def evaluate_models(models_directory, x_test, y_test, batch_size):
         model_path = os.path.join(models_directory, model_file)
         model = load_model(model_path)
         
-        # Predict on the test set
         y_pred = model.predict(x_test, batch_size=batch_size)
         y_pred_classes = np.argmax(y_pred, axis=1)
         y_test_classes = np.argmax(y_test, axis=1)
         
-        # Debug: Print some predictions and actual values
         print(f"Sample predictions: {y_pred_classes[:10]}")
         print(f"Sample actual values: {y_test_classes[:10]}")
         
-        # Compute and print the accuracy
         accuracy = accuracy_score(y_test_classes, y_pred_classes)
         print(f'Accuracy: {accuracy}')
         
-        # Compute the confusion matrix
         cm = confusion_matrix(y_test_classes, y_pred_classes)
         cm_normalized = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
         
-        # Create a DataFrame for better readability
         cm_df = pd.DataFrame(cm_normalized, index=range(num_classes), columns=range(num_classes))
         
-        # Filter out zero cells
         non_zero_cells = cm_df[cm_df != 0].stack().reset_index()
         non_zero_cells.columns = ['Actual', 'Predicted', 'Value']
         
-        # Plot the normalized confusion matrix with non-zero cells only
         plt.figure(figsize=(20, 18))
         sns.heatmap(cm_df, annot=False, cmap='Blues', cbar=True)
         plt.xticks(ticks=np.arange(0, num_classes, 5), labels=np.arange(0, num_classes, 5), rotation=90, fontsize=12)
@@ -83,14 +75,11 @@ def evaluate_models(models_directory, x_test, y_test, batch_size):
         plt.title('Normalized Confusion Matrix', fontsize=20)
         plt.show()
         
-        # Print the classification report
         report = classification_report(y_test_classes, y_pred_classes)
         print(report)
 
-# Load the test data
 x_test, y_test = load_test_dataset()
 
-# Evaluate models
 models_directory = "TSRNet1\models"
 batch_size = 32
 evaluate_models(models_directory, x_test, y_test, batch_size)

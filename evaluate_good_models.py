@@ -30,9 +30,7 @@ for model_path in good_models:
     predictions = model.predict(image_list)
 
     for i, prediction in enumerate(predictions):
-        # Get the index of the highest probability
         predicted_index = np.argmax(prediction)
-        # Fetch the sign label using the predicted index
         predicted_label = sign_labels[predicted_index]
         actual_label = sign_labels[true_label[i]]
         print(f"Image: {images[i]}, Prediction: {predicted_label}, Actual label: {actual_label}")

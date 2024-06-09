@@ -8,24 +8,21 @@ from keras.models import load_model
 from keras.utils import to_categorical
 import os 
 
-# Load the CSV file
 df = pd.read_csv(r'D:\Faculty materials\bachelors\datasets\GTSRB\Test.csv')
 
 base_dir = r'D:\Faculty materials\bachelors\datasets\GTSRB\\'
 df['Path'] = base_dir + df['Path'].astype(str)
 
-# Preprocess the images
 def preprocess_image(image_path, target_size):
     img = load_img(image_path, target_size=target_size)
     img = img_to_array(img)
-    img = img / 255.0  # Normalize to [0,1]
+    img = img / 255.0  
     return img
 
-target_size = (45, 45)  # Adjust based on your model's input size
+target_size = (45, 45)  
 X_test = np.array([preprocess_image(row['Path'], target_size) for index, row in df.iterrows()])
 y_test = df['ClassId'].values
 
-# Convert labels to categorical if needed
 num_classes = len(np.unique(y_test))
 y_test = to_categorical(y_test, num_classes)
 
